@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "gulp"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.39.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0"
+  }
+}
