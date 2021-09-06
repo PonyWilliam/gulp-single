@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn global dir
+
+PATH: 
+  /Users/williamtan/opt/anaconda3/bin:/Users/williamtan/tensorflow-metal/bin:/Users/williamtan/.cargo/bin/rustc:/users/williamtan/consul:/users/williamtan/go/bin:/Users/williamtan/bin:/Applications/Xcode.app/Contents/MacOS:/usr/local/sbin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/williamtan/.cargo/bin:~/documents/flutter/flutter/bin:/Applications/Xcode.app/Contents/Developer/
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/williamtan/gulp/package.json: Unexpected token } in JSON at position 116
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "scripts": {
+      "build": "gulp"
+    },
+    "devDependencies": {
+      "gulp": "^4.0.2",
+      "gulp-sass": "^5.0.0",
+    },
+    "dependencies": {
+      "browser-sync": "^2.27.5",
+      "del": "^6.0.0",
+      "gulp-autoprefixer": "^8.0.0",
+      "gulp-load-plugins": "^2.0.7",
+      "gulp-sourcemaps": "^3.0.0",
+      "gulp-uglify": "^3.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
